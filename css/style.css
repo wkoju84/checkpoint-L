@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: white;
+    position:fixed;
+    z-index: 99;
+    
+
+
+}
+
+#div-header{
+    width: 90vw;
+    display:flex;
+    justify-content: space-between;
+}
+#logo img{
+    width: 150px;
+    height: 80px;
+}
+
+#menu{
+    width: 40%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    padding: 5%;
+    color:black;
+    cursor: pointer;
+}
+.menu-item a{
+    color:#000;
+}
+.item a{
+    color:black;
+}
+
+#div-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/img1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#texto-banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    
+}
+
+#titulo-banner{
+    color: #97031e;
+    margin-bottom: 0.5%;
+    margin-left: 0%;
+
+}
+#p-banner{
+    color:antiquewhite;
+    margin-bottom: 00.5%;
+    padding: 10px;
+}
+
+#botao-banner{
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.2));
+    border:2px solid green;
+    border-radius: 10px;
+    color:#ffff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#botao-banner:hover{
+     transform:scale(1.1) ;
+     transition: all 0.5s ease-in-out;
+     background-color: green;
+    
+}
+#div-filmes{
+    margin-top: 2%;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.filmes{
+    width: 180px;
+    height: 530px;
+    background: rgba(189, 188, 186, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15px;
+
+}
+.filmes:hover {
+transform: scale(1.1);
+transition: all 0.5s ease-in-out;
+cursor: pointer;
+}
+
+.filmes:hover h3{
+text-decoration: underline;
+}
+
+.itens img{
+    width: 90%;
+    height: 20vh;
+    border-radius: 10px;
+    background-image: url('img/div1');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+footer{
+    background-color: #ffff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+      
+
+}
+#aluno{
+color: black;
+display: flex;
+width:45%;
+height: 90%;
+flex-direction: column;
+align-items: center;
+
+}
+
+#rede_social{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+
+}
+#rede_social img{
+    width: 80px;
+    height: 80px;
+    padding:  5px;
+}
+#DH{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#DH p{
+    width: 250px;
+    font-size: 1rem;
+    text-align:center;
+}
+#DH img{
+    width: 130px;
+    height: 70px;
+
+  
+}
